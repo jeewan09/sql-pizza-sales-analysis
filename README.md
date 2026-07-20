@@ -1,83 +1,80 @@
 # 🍕 Pizza Sales Analysis (SQL Project)
 
-## 📌 Project Overview
-This project focuses on analysing pizza sales data using SQL to uncover key business insights. The dataset includes order details, 
-pizza types, categories, and pricing information.
-
-The goal of this project is to answer important business questions such as:
-- What are the top-selling pizzas?
-- Which categories generate the most revenue?
-- How does revenue change over time?
+<p align="center">
+  <b>📊 SQL-based Data Analysis Project to uncover business insights from pizza sales data</b>
+</p>
 
 ---
 
-## 🛠️ Tools & Technologies Used
-- SQL (MySQL Workbench)
-- Database Management
-- Data Analysis Techniques
+## 📌 📖 Project Overview
+This project analyses a pizza sales dataset using **SQL** to extract meaningful business insights.  
+It focuses on understanding **sales performance, customer trends, and revenue generation**.
 
 ---
 
-## 📂 Dataset Description
-The dataset consists of the following tables:
-
-- **orders** → Contains order date and time
-- **order_details** → Contains quantity and order IDs
-- **pizzas** → Contains pizza prices and sizes
-- **pizza_types** → Contains pizza names and categories
+## 🎯 🎯 Objectives
+- Identify top-selling pizzas 🍕  
+- Analyse revenue trends 📈  
+- Understand category-wise performance 📊  
+- Track order patterns over time ⏳  
 
 ---
 
-## 📊 Key Analysis Performed
-
-### 🔹 1. Total Orders & Revenue
-- Calculated total number of orders
-- Computed total revenue generated
-
-### 🔹 2. Top Selling Pizzas
-- Identified the most ordered pizzas by quantity
-
-### 🔹 3. Revenue Analysis
-- Found the highest revenue-generating pizzas
-- Category-wise revenue breakdown
-
-### 🔹 4. Time-Based Analysis
-- Orders distribution by date
-- Cumulative revenue over time
-
-### 🔹 5. Advanced SQL (Window Functions)
-- Used `RANK()` to find top 3 pizzas per category
-- Used `SUM() OVER()` for cumulative revenue
+## 🛠️ 🧰 Tools & Technologies
+- 🗄️ MySQL Workbench  
+- 💻 SQL (Joins, Aggregations, Window Functions)  
+- 📊 Data Analysis  
 
 ---
 
-## 📈 Key Insights
-- Certain pizza categories consistently generate higher revenue
-- A few top pizzas contribute significantly to total sales
-- Revenue shows growth trends over time
+## 📂 📁 Dataset Description
+
+| File Name | Description |
+|----------|------------|
+| 📄 `orders.csv` | Contains order date & time |
+| 📄 `order_details.csv` | Quantity & order details |
+| 📄 `pizzas.csv` | Price & size info |
+| 📄 `pizza_types.csv` | Pizza names & categories |
 
 ---
 
-## 🚀 How to Use This Project
+## 📊 📈 Key Analysis Performed
 
-1. Download the `.sql` file from this repository  
+### 🔹 1. Sales & Revenue Analysis
+- Total orders calculation  
+- Total revenue generated  
+
+### 🔹 2. Top Selling Pizzas 🍕
+- Most ordered pizzas by quantity  
+- Highest revenue-generating pizzas  
+
+### 🔹 3. Category-wise Insights 📊
+- Revenue by pizza category  
+- Best performing categories  
+
+### 🔹 4. Time-Based Trends ⏳
+- Orders by date  
+- Cumulative revenue growth  
+
+### 🔹 5. Advanced SQL Concepts 🚀
+- `JOIN` operations  
+- `GROUP BY` & aggregations  
+- Window functions (`RANK()`, `SUM() OVER()`)
+
+---
+
+## 💡 📌 Key Insights
+- A few pizzas generate the majority of revenue 💰  
+- Certain categories consistently outperform others 📊  
+- Sales show trends over time 📈  
+
+---
+
+## ▶️ 🚀 How to Run This Project
+
+1. Download this repository  
 2. Open MySQL Workbench  
-3. Import the dataset (CSV files if included)  
-4. Run the SQL queries step-by-step  
-
----
-
-## 📌 Project Highlights
-- Real-world business problem solving  
-- Clean and structured SQL queries  
-- Use of joins, aggregations, and window functions  
-
----
-
-## 📎 Author
-Jeewan Singh Kanyal
-
----
-
-## ⭐ If you like this project
-Give it a ⭐ on GitHub and share your feedback!
+3. Import CSV files into the database  
+4. Run the SQL script:
+   ```sql
+   pizza_sales_project.sql
